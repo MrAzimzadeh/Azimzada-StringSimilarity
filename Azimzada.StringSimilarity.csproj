@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <PackageId>Azimzada.StringSimilarity</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Azimzada</Authors>
+    <Company>Azimzada</Company>
+    <RepositoryUrl>https://github.com/MrAzimzada/Azimzada.StringSimilarity</RepositoryUrl>
+    <PackageDescription>.NET library for string similarity and fuzzy search (Levenshtein, Jaro-Winkler)</PackageDescription>
+    <PackageTags>string similarity;fuzzy search;levenshtein;jaro-winkler;dotnet;search</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+</Project>
