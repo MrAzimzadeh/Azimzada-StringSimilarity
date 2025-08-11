@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Azimzada")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.1.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.1+33811d7e1bba41f83ac17edb3b192da1345d9db8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.1+b046e8f7fc634fc3ae9fce93436303a0b1d2bf07")]
 [assembly: System.Reflection.AssemblyProductAttribute("Azimzada.StringSimilarity")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Azimzada.StringSimilarity")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.1.0")]
