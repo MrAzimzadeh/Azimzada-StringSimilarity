@@ -7,17 +7,29 @@ on:
 
 jobs:
   publish:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
+    permissions:
+      packages: write
+      contents: read
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v3
+      
       - name: Setup .NET
-        uses: actions/setup-dotnet@v4
+        uses: actions/setup-dotnet@v3
         with:
           dotnet-version: '6.0.x'
+          
+      - name: Restore dependencies
+        run: dotnet restore
+        
       - name: Build
-        run: dotnet build --configuration Release
+        run: dotnet build --configuration Release --no-restore
+        
       - name: Pack
-        run: dotnet pack --configuration Release
+        run: dotnet pack --configuration Release --no-build
+        
+      - name: Add GitHub Packages Source
+        run: dotnet nuget add source --username MrAzimzadeh --password ${{ secrets.NUGET_TOKEN }} --store-password-in-clear-text --name github "https://nuget.pkg.github.com/MrAzimzadeh/index.json"
+        
       - name: Publish to GitHub Packages
-        run: dotnet nuget push "bin/Release/*.nupkg" --source "https://nuget.pkg.github.com/MrAzimzada/index.json" --api-key ${{ secrets.GITHUB_TOKEN }}
+        run: dotnet nuget push "bin/Release/*.nupkg" --api-key ${{ secrets.NUGET_TOKEN }} --source "github" --skip-duplicate
