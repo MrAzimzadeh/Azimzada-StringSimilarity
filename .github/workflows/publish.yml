@@ -1,8 +1,6 @@
 name: Publish NuGet Package
-      - name: Configure GitHub Packages Source
-        run: |
-          dotnet nuget remove source github || true
-          dotnet nuget add source --username MrAzimzadeh --password ${{ secrets.GITHUB_TOKEN }} --store-password-in-clear-text --name github "https://nuget.pkg.github.com/MrAzimzadeh/index.json"n:
+
+on:
   push:
     tags:
       - 'v*'
