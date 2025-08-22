@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\LENOVO\\Desktop\\MyLib\\Azimzada.StringSimilarity\\Azimzada.StringSimilarity.csproj": {}
+    "C:\\Users\\LENOVO\\Desktop\\MyLib\\Azimzada.StringSimilarity\\Azimzada.StringSimilarity.csproj": {}
   },
   "projects": {
-    "c:\\Users\\LENOVO\\Desktop\\MyLib\\Azimzada.StringSimilarity\\Azimzada.StringSimilarity.csproj": {
-      "version": "1.0.2",
+    "C:\\Users\\LENOVO\\Desktop\\MyLib\\Azimzada.StringSimilarity\\Azimzada.StringSimilarity.csproj": {
+      "version": "1.0.3",
       "restore": {
-        "projectUniqueName": "c:\\Users\\LENOVO\\Desktop\\MyLib\\Azimzada.StringSimilarity\\Azimzada.StringSimilarity.csproj",
+        "projectUniqueName": "C:\\Users\\LENOVO\\Desktop\\MyLib\\Azimzada.StringSimilarity\\Azimzada.StringSimilarity.csproj",
         "projectName": "Azimzada.StringSimilarity",
-        "projectPath": "c:\\Users\\LENOVO\\Desktop\\MyLib\\Azimzada.StringSimilarity\\Azimzada.StringSimilarity.csproj",
+        "projectPath": "C:\\Users\\LENOVO\\Desktop\\MyLib\\Azimzada.StringSimilarity\\Azimzada.StringSimilarity.csproj",
         "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\LENOVO\\Desktop\\MyLib\\Azimzada.StringSimilarity\\obj\\",
+        "outputPath": "C:\\Users\\LENOVO\\Desktop\\MyLib\\Azimzada.StringSimilarity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "c:\\Users\\LENOVO\\Desktop\\MyLib\\Azimzada.StringSimilarity\\NuGet.Config",
+          "C:\\Users\\LENOVO\\Desktop\\MyLib\\Azimzada.StringSimilarity\\NuGet.Config",
           "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
